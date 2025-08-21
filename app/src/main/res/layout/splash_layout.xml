@@ -9,8 +9,14 @@
     tools:context=".SplashActivity">
 
         <ImageView
+            android:scaleType="centerCrop"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:src="c2c2c2"
-            />
+            android:src="@drawable/gato"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gatinho fofo"
+        />
 </LinearLayout>
